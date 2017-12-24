@@ -1,0 +1,96 @@
+NEW Dagger
+damage 3
+accuracy 2
+rMin 1
+rMax 1
+
+NEW Fine Dagger
+damage 4
+accuracy 3
+rMin 1
+rMax 1
+
+NEW Master Dagger
+damage 4
+accuracy 5
+rMin 1
+rMax 1
+
+
+NEW Club
+damage 4
+accuracy 0
+rMin 1
+rMax 1
+
+
+NEW Sabre
+damage 5
+accuracy 0
+rMin 1
+rMax 1
+
+NEW Broadsword
+damage 7
+accuracy 1
+rMin 1
+rMax 1
+
+NEW Zweihander
+damage 9
+accuracy 1
+rMin 1
+rMax 1
+
+
+NEW Knife
+damage 2
+accuracy 2
+rMin 1
+rMax 2
+pierce 1
+speed 1
+
+NEW Fine Knife
+damage 3
+accuracy 3
+rMin 1
+rMax 2
+pierce 1
+speed 1
+
+
+NEW Light Bow
+class bow
+damage 3
+accuracy 4
+rMin 2
+rMax 2
+pierce 1
+
+NEW Bow
+class bow
+damage 5
+accuracy 3
+rMin 2
+rMax 2
+pierce 1
+
+
+NEW Flintlock
+class gun
+cool 2
+damage 10
+accuracy -1
+rMin 2
+rMax 3
+pierce 2
+
+NEW Musket
+class gun
+cool 3
+damage 16
+accuracy -2
+rMin 2
+rMax 3
+pierce 2

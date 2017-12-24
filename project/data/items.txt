@@ -1,0 +1,35 @@
+NEW Potion
+heal 10
+uses 3
+desc Heals 10 HP.
+
+NEW Refined Potion
+heal 15
+uses 3
+desc A more powerful potion. Heals 15 HP.
+
+NEW Grand Potion
+heal 100
+uses 1
+desc A rare and mighty potion. Heals all HP.
+
+NEW Ironskin Vial
+uses 1
+desc Enhances defense for 4 rounds.
+buff def 04 -1 04 	stat, bonus, delta, duration
+
+NEW Zephyr Vial
+uses 1
+desc Enhances speed for 4 rounds.
+buff spd 04 -1 04
+
+NEW Bastion Brew
+uses 1
+desc Immortal but immobile
+buff def 10 00 02
+buff mov -9 00 02
+
+NEW Death Juice
+uses 5
+desc Die
+heal -9

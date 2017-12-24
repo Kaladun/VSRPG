@@ -1,0 +1,20 @@
+NAME TestCampaign
+
+LORE A test campaign filled with all of the memes
+
+DIFF 1
+
+LENGTH 3
+
+MAP map0
+MAP map1
+MAP map2
+
+UNIT sisko
+UNIT kira
+UNIT dax
+UNIT julien
+UNIT odo
+UNIT quark
+UNIT worf
+UNIT miles

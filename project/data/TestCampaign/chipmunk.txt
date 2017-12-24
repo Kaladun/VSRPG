@@ -1,0 +1,22 @@
+class Fighter
+level 1
+
+inv Sabre
+item Potion
+
+uname Chipmunk
+ulore The rodent himself
+upath playerFighter.png
+
+maxhp 24
+curhp 24
+stren 5
+defen 2
+skill 4
+speed 4
+
+Gmaxhp 85
+Gstren 65
+Gdefen 45
+Gskill 45
+Gspeed 40

@@ -1,0 +1,128 @@
+width 15
+height 8
+
+
+m201002010000100001002010040400401004100040100407002020010400101001010020100
+m2010000100002PC001000010040400410004130041000407000010010800111EB101E620100
+m202PB002PA00100001004050041500410004100041100409EB00100001E5108001030020100
+m001000010000200001004080041200413004110040900001000010000100003000020020100
+m201002020000100002000010040800403004090000200001000010000100001E42020020100
+m2010020100201000010000100001000010000100001E3001002010000100201000010020100
+m002000020000300001E20010000100201000010000100003000010000100405004020020100
+m001E10010000200001000020000300001002010000300001000010040500415004100020100
+
+
+
+
+
+TILE 0
+tname Grass
+tpath tileGrass.png
+cost 1
+
+TILE 1
+tname Thicket
+tpath tileField.png
+cost 1
+eva 5
+
+TILE 2
+tname Forest
+tpath tileForest.png
+cost 1
+def 2
+eva 10
+
+TILE 3
+tpath tileMud.png
+tname Mud
+cost 2
+
+TILE 4
+tpath tileWater.png
+tname Water
+cost 100
+
+
+PLUNIT PA Chipmunk
+
+PLUNIT PB Lulz
+
+PLUNIT PC Browneye
+
+AIUNIT E1
+team 2
+class Bandit
+level 1
+inv Club
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyRogue.png
+
+AIUNIT E2
+team 2
+class Bandit
+level 1
+inv Knife
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyRogue.png
+delta -1-1000201
+
+AIUNIT E3
+team 2
+class Bandit
+level 1
+inv Sabre
+item Weak Potion
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyRogue.png
+delta 0201000000
+
+AIUNIT E4
+team 2
+class Bandit
+level 1
+inv Club
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyRogue.png
+
+AIUNIT E5
+team 2
+class Bandit
+level 1
+inv Knife
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyRogue.png
+delta -1-1000201
+
+AIUNIT E6
+team 2
+class Scout
+level 1
+inv Knife
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyRogue.png
+aggro 2
+
+AIUNIT EB
+team 2
+class Soldier
+level 2
+inv Sabre
+inv Knife
+uname Mathig
+ulore hurrrrrrrrrrrr
+upath enemyKnight.png
+delta 0201000101
+aggro 0
+
+GOAL SAVE
+unit PA
+
+GOAL KILL
+unit EB

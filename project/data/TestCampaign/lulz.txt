@@ -1,0 +1,23 @@
+class Marksman
+level 1
+
+inv Flintlock
+inv Dagger
+
+
+uname Lulz
+ulore Meme master
+upath playerArcher.png
+
+maxhp 21
+curhp 21
+stren 2
+defen 3
+skill 6
+speed 5
+
+Gmaxhp 70
+Gstren 30
+Gdefen 45
+Gskill 70
+Gspeed 55

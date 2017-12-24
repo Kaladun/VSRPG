@@ -1,0 +1,54 @@
+NEW Fighter
+mhp 22 75
+str 05 60
+def 03 30
+skl 04 50
+spd 03 30
+armor 2
+move 5
+
+NEW Guard
+mhp 24 80
+str 04 40
+def 03 55
+skl 04 35
+spd 02 20
+armor 6
+move 4
+
+
+NEW Scout
+mhp 19 55
+str 04 40
+def 01 30
+skl 05 45
+spd 06 60
+move 6
+smove Woods 01
+
+
+NEW Marksman
+mhp 18 60
+str 02 25
+def 02 40
+skl 07 60
+spd 05 40
+move 5
+
+
+NEW Soldier
+mhp 22 55
+str 04 50
+def 04 30
+skl 04 60
+spd 04 35
+move 5
+
+
+NEW Bandit
+mhp 17 55 
+str 04 40
+def 01 40 
+skl 02 40
+spd 02 35
+move 5

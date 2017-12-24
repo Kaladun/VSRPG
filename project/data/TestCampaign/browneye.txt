@@ -1,0 +1,23 @@
+class Scout
+level 1
+
+inv Fine Knife
+item Potion
+item Ironskin Vial
+
+uname Browneye
+ulore such meme very wow
+upath playerScout.png
+
+maxhp 20
+curhp 20
+stren 4
+defen 2
+skill 6
+speed 6
+
+Gmaxhp 60
+Gstren 45
+Gdefen 30
+Gskill 45
+Gspeed 60

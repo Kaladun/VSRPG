@@ -1,0 +1,152 @@
+width 14
+height 8
+
+
+m2010060100001000010020100404004010041000401004070020200104001010010100
+m0010000100002PC00100001004040041000413004100040700001001080010100101E6
+m202PB002PA00100001004050041500410004100041100409EB00100001E51080010300
+m001000010000200001004080041200413004110040900001000010000100601EB00200
+m201002020000100002002010040800403004090000200001000010000100001E420200
+m2010020100201002010000100001000010060100001000010020100001002010000100
+m002000020000300001E20010000100202ET0010000100003E300100001004050040200
+m001E100100002000010000200003000010020100003000010000100405004150041000
+
+
+
+
+
+TILE 0
+tname Grass
+tpath tileGrass.png
+cost 1
+
+TILE 1
+tname Thicket
+tpath tileField.png
+cost 1
+eva 5
+
+TILE 2
+tname Forest
+tpath tileForest.png
+cost 2
+def 2
+eva 10
+tag Woods
+
+TILE 3
+tpath tileMud.png
+tname Mud
+cost 2
+
+TILE 4
+tpath tileWater.png
+tname Water
+cost 100
+
+TILE 5
+tpath tileMagma.png
+tname Magma
+cost 1
+heal -2
+frames 4
+
+TILE 6
+tpath tileShrine.png
+tname Shrine
+cost 1
+def 1
+heal 2
+frames 2
+
+PLUNIT PA Chipmunk
+
+PLUNIT PB Lulz
+
+PLUNIT PC Browneye
+
+
+AIUNIT E1
+team 2
+class Bandit
+level 1
+inv Club
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyBandit.png
+
+AIUNIT E2
+team 2
+class Bandit
+level 1
+inv Club
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyBandit.png
+
+AIUNIT E3
+team 2
+class Fighter
+level 1
+inv Sabre
+item Potion
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyFighter.png
+delta 0000-10000
+
+AIUNIT ET
+team 2
+class Scout
+level 2
+inv Knife
+uname Vexian
+ulore hurrrrrrrrrrr
+upath enemyScout.png
+aggro 2
+
+AIUNIT E4
+team 2
+class Bandit
+level 1
+inv Club
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyBandit.png
+
+AIUNIT E5
+team 2
+class Bandit
+level 1
+inv Club
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyBandit.png
+
+AIUNIT E6
+team 2
+class Scout
+level 1
+inv Knife
+uname Vexian
+ulore hurrrrrrrrrrrr
+upath enemyScout.png
+aggro 2
+
+AIUNIT EB
+team 2
+class Fighter
+level 2
+inv Sabre
+inv Knife
+uname Gritham
+ulore hurrrrrrrrrrrr
+upath enemyFighter.png
+delta 0301000101
+aggro 0
+
+GOAL SAVE
+unit PA
+
+GOAL KILL
+unit EB
